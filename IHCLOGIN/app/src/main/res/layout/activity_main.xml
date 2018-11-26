@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <!--<TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="TextView" />-->
+
+
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/igc_oi1" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="It is health that is real wealth and not pieces of gold and silver."
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:textSize="15sp"
+        android:background="@drawable/bg2" />
+
+
+    <Button
+        android:id="@+id/sig_button"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/bg3"
+        android:onClick="Register"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/bg"
+        android:onClick="LogIn"
+        android:text="Log In" />
+
+</RelativeLayout>
